@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ProjectE.DAO.Changes>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<table>
+    <tr>
+        <th>
+           Комментарий
+        </th>
+        <th>
+            Наименование
+        </th>
+        <th>
+            Операция
+        </th>
+        <th>
+            Количество
+        </th>
+        <th>
+            Статус
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Info)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.TypeObject.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.TypeOperation.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StatusChanges.Name)
+        </td>
+        
+    </tr>
+}
+
+</table>

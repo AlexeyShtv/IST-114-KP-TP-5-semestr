@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ProjectE.DAO.Objects>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Описание
+        </th>
+        <th>
+            Тип
+        </th>
+        <th>
+            Владелец
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeObject.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.UserName)
+        </td>
+        <td>
+            @if(item.User == null){
+               
+            }
+            else{
+                @Html.ActionLink("Освободить","Free", new {id = item.Id})   
+            }
+        </td>
+    </tr>
+}
+
+</table>

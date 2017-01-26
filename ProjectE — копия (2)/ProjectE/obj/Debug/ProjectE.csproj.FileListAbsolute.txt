@@ -1,0 +1,191 @@
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ProjectE.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ProjectE.pdb
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\Antlr3.Runtime.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.Core.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\EntityFramework.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\Newtonsoft.Json.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Net.Http.Formatting.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Helpers.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.WebHost.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Mvc.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Optimization.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Razor.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Razor.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\WebGrease.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.Data.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.WebData.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\EntityFramework.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\Newtonsoft.Json.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Net.Http.Formatting.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Helpers.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.WebHost.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Mvc.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Razor.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Razor.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.Data.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.WebData.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.Core.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\EntityFramework.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Http.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Razor.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\obj\Debug\ProjectE.csprojResolveAssemblyReference.cache
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\obj\Debug\ProjectE.dll
+C:\Users\ESTGold_USER\documents\visual studio 2012\Projects\ProjectE\ProjectE\obj\Debug\ProjectE.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ProjectE.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ProjectE.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\Antlr3.Runtime.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\EntityFramework.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\Newtonsoft.Json.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Net.Http.Formatting.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Helpers.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.WebHost.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Mvc.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Optimization.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Razor.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\WebGrease.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.Data.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.WebData.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\EntityFramework.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\Newtonsoft.Json.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Net.Http.Formatting.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Helpers.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Http.WebHost.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Mvc.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.Razor.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.Data.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\WebMatrix.WebData.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\EntityFramework.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Http.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\obj\Debug\ProjectE.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\obj\Debug\ProjectE.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\obj\Debug\ProjectE.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE\ProjectE\bin\ProjectE.dll.config
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ProjectE.dll.config
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ProjectE.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ProjectE.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\Antlr3.Runtime.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\EntityFramework.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\Newtonsoft.Json.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Net.Http.Formatting.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Helpers.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Http.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Http.WebHost.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Mvc.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Optimization.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Razor.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.WebPages.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\WebGrease.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\WebMatrix.Data.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\WebMatrix.WebData.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\EntityFramework.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\Newtonsoft.Json.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Net.Http.Formatting.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Helpers.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Http.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Http.WebHost.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Mvc.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.Razor.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.WebPages.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\WebMatrix.Data.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\WebMatrix.WebData.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\EntityFramework.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.Http.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\obj\Debug\ProjectE.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\obj\Debug\ProjectE.dll
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\ProjectE — копия (2)\ProjectE\obj\Debug\ProjectE.pdb

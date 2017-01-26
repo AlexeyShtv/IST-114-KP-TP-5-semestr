@@ -1,0 +1,60 @@
+﻿@model ProjectE.DAO.Changes
+
+@{
+    ViewBag.Title = "Accept";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Принять заявку?</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Changes</legend>
+
+        <div class="editor-label">
+            Информация
+        </div>
+        <div class="editor-field">
+            @Html.DisplayTextFor(model => model.Info)
+            @Html.ValidationMessageFor(model => model.Info)
+        </div>
+
+        <div class="editor-label">
+         
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.SenderID)
+            @Html.ValidationMessageFor(model => model.SenderID)
+        </div>
+
+        <div class="editor-label">
+         
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.ObjectID)
+            @Html.ValidationMessageFor(model => model.ObjectID)
+        </div>
+
+        <div class="editor-label">
+         
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.StatusID)
+            @Html.ValidationMessageFor(model => model.StatusID)
+        </div>
+
+        <p>
+            <input type="submit" value="Принять" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

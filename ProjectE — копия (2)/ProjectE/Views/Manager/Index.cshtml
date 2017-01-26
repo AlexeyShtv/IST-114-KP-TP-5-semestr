@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ProjectE.DAO.Changes>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+      <form action = "Manager" method = "GET">
+           <select name="filter">
+                  <option value="Ожидает">Ожидает</option>
+                  <option value="Подтвержден">Подтвержден</option>
+                  <option value="Удален">Удален</option>
+                  <option value="Отклонен">Отклонен</option>
+            </select> 
+            <input type = "submit" value = "Ввод">
+    </form>
+
+
+
+   
+
+<table>
+    <tr>        
+        <th>
+            Учетчик
+        </th>
+        <th>
+            Операция
+        </th>
+        <th>
+            Количество
+        </th>
+        <th>
+            Наименование
+        </th>
+        <th>
+            Поставщик/Отдел
+        </th>
+        <th>
+            Комментарий
+        </th>
+        <th>
+            Статус
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.TypeOperation.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.Description)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.TypeObject.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objects.Dealer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Info)
+        </td>
+        
+        
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.StatusChanges.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Принять", "Accept", new { id=item.Id }) |
+            @Html.ActionLink("Отклонить", "Decline", new { id=item.Id }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

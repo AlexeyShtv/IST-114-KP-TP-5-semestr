@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB3" Class="ProjectEDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ALEXPC\SQLEXPRESS;Initial Catalog=DB3;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DefaultConnection" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.webpages_UsersInRoles" Member="webpages_UsersInRoles">
+    <Type Name="webpages_UsersInRoles">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="User_webpages_UsersInRoles" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" />
+      <Association Name="webpages_Roles_webpages_UsersInRoles" Member="webpages_Roles" ThisKey="RoleId" OtherKey="RoleId" Type="webpages_Roles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Owner" Member="Owner">
+    <Type Name="Owner">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="User_Owner" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StatusChanges" Member="StatusChanges">
+    <Type Name="StatusChanges">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="StatusChanges_Changes" Member="Changes" ThisKey="Id" OtherKey="StatusID" Type="Changes" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserProfile" Member="User">
+    <Type Name="User">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(56) NOT NULL" CanBeNull="false" />
+      <Association Name="User_webpages_UsersInRoles" Member="webpages_UsersInRoles" ThisKey="UserId" OtherKey="UserId" Type="webpages_UsersInRoles" />
+      <Association Name="User_Owner" Member="Owner" ThisKey="UserId" OtherKey="UserId" Type="Owner" />
+      <Association Name="User_Changes" Member="Changes" ThisKey="UserId" OtherKey="SenderID" Type="Changes" />
+      <Association Name="User_Objects" Member="Objects" ThisKey="UserId" OtherKey="OwnerID" Type="Objects" />
+    </Type>
+  </Table>
+  <Table Name="dbo.webpages_Membership" Member="webpages_Membership">
+    <Type Name="webpages_Membership">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ConfirmationToken" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="IsConfirmed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LastPasswordFailureDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PasswordFailuresSinceLastSuccess" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordChangedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PasswordSalt" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordVerificationToken" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="PasswordVerificationTokenExpirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.webpages_OAuthMembership" Member="webpages_OAuthMembership">
+    <Type Name="webpages_OAuthMembership">
+      <Column Name="Provider" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProviderUserId" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.webpages_Roles" Member="webpages_Roles">
+    <Type Name="webpages_Roles">
+      <Column Name="RoleId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="webpages_Roles_webpages_UsersInRoles" Member="webpages_UsersInRoles" ThisKey="RoleId" OtherKey="RoleId" Type="webpages_UsersInRoles" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Changes" Member="Changes">
+    <Type Name="Changes">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Info" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SenderID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ObjectID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StatusID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="User_Changes" Member="User" ThisKey="SenderID" OtherKey="UserId" Type="User" IsForeignKey="true" />
+      <Association Name="StatusChanges_Changes" Member="StatusChanges" ThisKey="StatusID" OtherKey="Id" Type="StatusChanges" IsForeignKey="true" />
+      <Association Name="Objects_Changes" Member="Objects" ThisKey="ObjectID" OtherKey="Id" Type="Objects" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypeObject" Member="TypeObject">
+    <Type Name="TypeObject">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TypeObject_Objects" Member="Objects" ThisKey="Id" OtherKey="TypeID" Type="Objects" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypeOperation" Member="TypeOperation">
+    <Type Name="TypeOperation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="TypeOperation_Objects" Member="Objects" ThisKey="Id" OtherKey="OperationID" Type="Objects" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Objects" Member="Objects">
+    <Type Name="Objects">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OwnerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dealer" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OperationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Objects_Changes" Member="Changes" ThisKey="Id" OtherKey="ObjectID" Type="Changes" />
+      <Association Name="TypeObject_Objects" Member="TypeObject" ThisKey="TypeID" OtherKey="Id" Type="TypeObject" IsForeignKey="true" />
+      <Association Name="User_Objects" Member="User" ThisKey="OwnerID" OtherKey="UserId" Type="User" IsForeignKey="true" />
+      <Association Name="TypeOperation_Objects" Member="TypeOperation" ThisKey="OperationID" OtherKey="Id" Type="TypeOperation" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

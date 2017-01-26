@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ProjectE.DAO.User>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Пользователи</h2>
+
+<p>
+
+</p>
+<table>
+    <tr>
+        <th>
+            gh
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.ActionLink("Назначить роль", "SetRole", new { id = item.UserId })
+            </td>
+        </tr>
+    }
+
+</table>
